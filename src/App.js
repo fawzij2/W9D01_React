@@ -9,6 +9,7 @@ const App = () => {
   return <div>
     <h1>Todo List</h1>;
     <List todoList={todos}/>
+    <ListItem todoList={todos} id={1}/>
     </div>
 };
 
